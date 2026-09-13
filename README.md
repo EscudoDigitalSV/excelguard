@@ -55,7 +55,7 @@ Gracias a su arquitectura con procesamiento multihilo (`QThread`), la desprotecc
 <table>
 <tr>
 <th>Funciones</th>
-<th>Gratis (Free Edition)</th>
+<th>Gratis</th>
 <th>Licencia Pro (Vitalicia)</th>
 </tr>
 
