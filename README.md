@@ -1,4 +1,4 @@
-# <img src="https://i.servimg.com/u/f34/20/32/08/60/sin_tz23.png" width="32" height="32"> ExcelGuard 1.0.0
+# <img src="https://i.servimg.com/u/f34/20/32/08/60/eg10.png" width="32" height="32"> ExcelGuard 1.0.0
 
 > ## 🔓 Eliminación Instantánea de Protecciones y Desbloqueo de Hojas y Libros de Excel para Windows 10 & 11
 >
@@ -12,7 +12,7 @@
 
 <div align="center">
   <h2>📸 Captura de Pantalla</h2>
-  <img src="https://i.servimg.com/u/f34/20/32/08/60/egafe10.png" alt="ExcelGuard Interface" width="550">
+  <img src="https://i.servimg.com/u/f34/20/32/08/60/sin_tz23.png" alt="ExcelGuard Interface" width="450">
 </div>
 
 ---
