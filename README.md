@@ -142,7 +142,7 @@ Los archivos de Excel (`.xlsx` / `.xlsm`) son contenedores comprimidos en format
 </td>
 
 <td align="center">
-<a href="https://escudodigitalsv.com/excelguard">
+<a href="https://escudodigitalsv.com">
 <img src="https://img.shields.io/badge/🛒_COMPRAR_AHORA-escudodigitalsv.com-blue?style=for-the-badge">
 </a>
 </td>
@@ -154,7 +154,7 @@ Los archivos de Excel (`.xlsx` / `.xlsm`) son contenedores comprimidos en format
 ---
 
 <p align="center">
-  <a href="https://github.com/EscudoDigitalSV/excelguard/releases/download/v1.0.0/ExcelGuard.exe">
+  <a href="https://escudodigitalsv.com">
     <img src="https://img.shields.io/github/downloads/escudodigitalsv/excelguard/total?style=for-the-badge&color=28a745&logo=github" alt="Descargas">
   </a>
 </p>
