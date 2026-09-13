@@ -1,4 +1,4 @@
-# <img src="https://i.servimg.com/u/f34/20/32/08/60/eg10.png" width="32" height="32"> Excel Guard
+# <img src="https://i.servimg.com/u/f34/20/32/08/60/eg10.png" width="32" height="32"> ExcelGuard
 
 > ## 🔓 Desbloqueo Rápido y Eliminación de Protección de Hojas y Libros de Excel
 >
@@ -10,14 +10,14 @@
 
 <div align="center">
   <h2>📸 Captura de Pantalla</h2>
-  <img src="https://i.servimg.com/u/f34/20/32/08/60/sin_tz23.png" alt="Excel Guard Interface" width="400">
+  <img src="https://i.servimg.com/u/f34/20/32/08/60/sin_tz23.png" alt="ExcelGuard Interface" width="400">
 </div>
 
 ---
 
 # ✨ Características Principales
 
-Excel Guard incluye las funciones esenciales para el análisis y eliminación de protecciones en hojas de cálculo:
+ Guard incluye las funciones esenciales para el análisis y eliminación de protecciones en hojas de cálculo:
 
 * 🔓 **Eliminación Instantánea de Protecciones:** Elimina la protección de hojas (`sheetProtection`) y del libro (`workbookProtection`) en segundos.
 * 🛡️ **Preservación Integrada de Datos:** Remueve las restricciones de estructura y edición sin alterar el contenido, fórmulas ni formatos originales.
@@ -36,9 +36,9 @@ Excel Guard incluye las funciones esenciales para el análisis y eliminación de
 
 # 🆕 Actualización — Versión 1.0.0
 
-### Lanzamiento Oficial de Excel Guard
+### Lanzamiento Oficial de ExcelGuard
 
-Se presenta la versión inicial de Excel Guard, orientada a la remoción directa y segura de restricciones en hojas de cálculo de Microsoft Excel.
+Se presenta la versión inicial de ExcelGuard, orientada a la remoción directa y segura de restricciones en hojas de cálculo de Microsoft Excel.
 
 * ⚡ **Motor de eliminación ultra rápido:** Descompresión y modificación directa del marcado XML interno de los libros.
 * 🖱️ **Experiencia de usuario optimizada:** Zona de arrastre interactiva con animaciones de opacidad y bordes punteados.
@@ -65,7 +65,7 @@ Los archivos de Excel (`.xlsx` / `.xlsm`) son contenedores comprimidos en format
 
 * **sheetProtection**: Etiqueta XML que bloquea la edición de celdas, formatos y filas/columnas en hojas individuales.
 * **workbookProtection**: Etiqueta XML que restringe la modificación de la estructura del libro (añadir, mover o eliminar hojas).
-* **Excel Guard** elimina de forma limpia estas etiquetas internas sin alterar el resto del esquema de datos.
+* **ExcelGuard** elimina de forma limpia estas etiquetas internas sin alterar el resto del esquema de datos.
 
 ---
 
@@ -74,8 +74,8 @@ Los archivos de Excel (`.xlsx` / `.xlsm`) son contenedores comprimidos en format
 <table>
 <tr>
 <th>Funciones</th>
-<th>Gratis (Excel Guard)</th>
-<th>Licencia Vitalicia (Excel Guard Pro)</th>
+<th>Gratis (ExcelGuard)</th>
+<th>Licencia Vitalicia (ExcelGuard Pro)</th>
 </tr>
 
 <tr>
@@ -166,7 +166,7 @@ Los archivos de Excel (`.xlsx` / `.xlsm`) son contenedores comprimidos en format
 ### Desbloquear un Archivo de Excel
 1. Selecciona un archivo `.xlsx` o `.xlsm` en la aplicación (o arrástralo a la zona indicada).
 2. Haz clic en el botón **🔓 Desbloquear Archivo**.
-3. Excel Guard procesará el archivo en segundo plano.
+3. ExcelGuard procesará el archivo en segundo plano.
 4. El nuevo archivo desbloqueado se guardará en la misma carpeta con el sufijo `_unlocked` (ejemplo: `Reporte_unlocked.xlsx`).
 
 ---
@@ -174,12 +174,12 @@ Los archivos de Excel (`.xlsx` / `.xlsm`) son contenedores comprimidos en format
 # ⚠️ Nota de Seguridad
 
 > [!CAUTION]
-> Excel Guard interactúa directamente con la estructura de archivos ZIP/XML de Microsoft Excel para eliminar las marcas de protección de hojas y libros.
+> ExcelGuard interactúa directamente con la estructura de archivos ZIP/XML de Microsoft Excel para eliminar las marcas de protección de hojas y libros.
 >
 > Debido a este comportamiento técnico y al procesamiento directo sobre contenedores comprimidos, algunos antivirus o soluciones de seguridad pueden mostrar alertas preventivas o falsos positivos.
 
 > [!NOTE]
-> Excel Guard es un proyecto independiente desarrollado por Escudo Digital SV.
+> ExcelGuard es un proyecto independiente desarrollado por Escudo Digital SV.
 >
 > Esta primera versión oficial aún no cuenta con una firma digital de código (Code Signing Certificate), por lo que Windows SmartScreen puede mostrar advertencias preventivas al ejecutar el archivo descargado.
 >
@@ -192,7 +192,7 @@ Los archivos de Excel (`.xlsx` / `.xlsm`) son contenedores comprimidos en format
 # 📥 Instalación y Advertencia de Windows SmartScreen
 
 > [!IMPORTANT]
-> Al descargar Excel Guard, Windows puede mostrar la advertencia **"Windows protegió tu PC"**.
+> Al descargar ExcelGuard, Windows puede mostrar la advertencia **"Windows protegió tu PC"**.
 >
 > Este comportamiento es normal cuando una aplicación descargada desde Internet aún no dispone de una firma digital reconocida por Microsoft.
 
@@ -204,7 +204,7 @@ Los archivos de Excel (`.xlsx` / `.xlsm`) son contenedores comprimidos en format
 
 <div align="center">
 
-<img src="https://github.com/escudodigitalsv/applockerpro/blob/aea72c6f141e471c3751d2afb4370da7f3b25cf3/img/SmartScreen.gif" alt="Cómo ejecutar Excel Guard" width="250">
+<img src="https://github.com/escudodigitalsv/applockerpro/blob/aea72c6f141e471c3751d2afb4370da7f3b25cf3/img/SmartScreen.gif" alt="Cómo ejecutar ExcelGuard" width="250">
 
 </div>
 
@@ -229,7 +229,7 @@ Los archivos de Excel (`.xlsx` / `.xlsm`) son contenedores comprimidos en format
 # 🐛 Reportar un Problema
 
 Si encuentras un error o comportamiento inesperado, puedes enviarnos un correo a **soporte@escudodigitalsv.com** indicando:
-* Versión de Excel Guard (versión gratuita)
+* Versión de ExcelGuard (versión gratuita)
 * Versión de Windows
 * Pasos para reproducir el problema
 * Mensaje de error
