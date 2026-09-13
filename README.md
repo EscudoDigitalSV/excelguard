@@ -2,7 +2,7 @@
 
 > ## 🔓 Desbloqueo Rápido y Eliminación de Protección de Hojas y Libros de Excel
 >
-> **Excel Guard** es una herramienta ligera para Windows diseñada para eliminar la protección de hojas y libros de Excel (`.xlsx`, `.xlsm`) en segundos, sin modificar los datos ni el contenido del archivo original.
+> **ExcelGuard** es una herramienta ligera para Windows diseñada para eliminar la protección de hojas y libros de Excel (`.xlsx`, `.xlsm`) en segundos, sin modificar los datos ni el contenido del archivo original.
 >
 > Ideal para usuarios que necesitan recuperar el acceso de edición a sus hojas de cálculo protegidas sin complicaciones ni pérdida de información.
 
