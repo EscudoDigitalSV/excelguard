@@ -154,7 +154,7 @@ Los archivos de Excel (`.xlsx` / `.xlsm`) son contenedores comprimidos en format
 ---
 
 <p align="center">
-  <a href="https://escudodigitalsv.com">
+  <a href="https://github.com/EscudoDigitalSV/excelguard/releases">
     <img src="https://img.shields.io/github/downloads/escudodigitalsv/excelguard/total?style=for-the-badge&color=28a745&logo=github" alt="Descargas">
   </a>
 </p>
