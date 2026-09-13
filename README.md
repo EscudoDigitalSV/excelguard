@@ -136,7 +136,7 @@ Los archivos de Excel (`.xlsx` / `.xlsm`) son contenedores comprimidos en format
 <td><b>Acción</b></td>
 
 <td align="center">
-<a href="https://escudodigitalsv.com">
+<a href="https://github.com/EscudoDigitalSV/excelguard/releases/download/v1.0.0/ExcelGuard.exe">
 <img src="https://img.shields.io/badge/PROBAR_GRATIS-blue?style=for-the-badge&logo=windows11&logoColor=white">
 </a>
 </td>
