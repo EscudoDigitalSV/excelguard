@@ -121,7 +121,7 @@ Gracias a su arquitectura con procesamiento multihilo (`QThread`), la desprotecc
 
 <tr>
 <td><b>Duración</b></td>
-<td align="center"><b>GRATIS PARA SIEMPRE</b></td>
+<td align="center"><b>GRATIS</b></td>
 <td align="center"><b>PARA SIEMPRE</b></td>
 </tr>
 
