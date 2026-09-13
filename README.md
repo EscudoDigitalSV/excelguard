@@ -1,134 +1,127 @@
-# <img src="https://i.servimg.com/u/f34/20/32/08/60/eg10.png" width="32" height="32"> ExcelGuard
+# <img src="https://i.servimg.com/u/f34/20/32/08/60/eg10.png" width="32" height="32"> ExcelGuard 1.0.0
 
-> ## 🔓 Desbloqueo Rápido y Eliminación de Protección de Hojas y Libros de Excel
+> ## 🔓 Eliminación Instantánea de Protecciones y Desbloqueo de Hojas y Libros de Excel para Windows 10 & 11
 >
-> **ExcelGuard** es una herramienta ligera para Windows diseñada para eliminar la protección de hojas y libros de Excel (`.xlsx`, `.xlsm`) en segundos, sin modificar los datos ni el contenido del archivo original.
+> ExcelGuard 1.0.0 es una herramienta de utilidad y seguridad para Windows diseñada para desbloquear y remover restricciones de edición, protección de hojas (`sheetProtection`) y libros (`workbookProtection`) de Microsoft Excel (`.xlsx`, `.xlsm`) de forma 100% local, ultra rápida y sin depender de servicios web ni de la nube.
 >
-> Ideal para usuarios que necesitan recuperar el acceso de edición a sus hojas de cálculo protegidas sin complicaciones ni pérdida de información.
+> Permite remover contraseñas y bloqueos en archivos de Excel en cuestión de milisegundos sin alterar los datos, fórmulas, formatos ni macros del documento original. Funciona mediante el análisis estructurado del formato OpenXML y la limpieza segura de directivas de protección.
+>
+> Ideal para profesionales, contadores, administradores de sistemas, analistas de datos, docentes y usuarios que hayan olvidado la clave de una hoja de trabajo o necesiten editar plantillas protegidas sin perder tiempo.
 
 ---
 
 <div align="center">
   <h2>📸 Captura de Pantalla</h2>
-  <img src="https://i.servimg.com/u/f34/20/32/08/60/sin_tz23.png" alt="ExcelGuard Interface" width="400">
+  <img src="https://i.servimg.com/u/f34/20/32/08/60/egafe10.png" alt="ExcelGuard Interface" width="550">
 </div>
 
 ---
 
-# ✨ Características Principales
+# ✨ Funciones incluidas en esta versión
 
- Guard incluye las funciones esenciales para el análisis y eliminación de protecciones en hojas de cálculo:
+ExcelGuard 1.0.0 Free Edition es la primera versión oficial del proyecto e incorpora un motor optimizado de desprotección local y procesamiento multihilo para Windows.
 
-* 🔓 **Eliminación Instantánea de Protecciones:** Elimina la protección de hojas (`sheetProtection`) y del libro (`workbookProtection`) en segundos.
-* 🛡️ **Preservación Integrada de Datos:** Remueve las restricciones de estructura y edición sin alterar el contenido, fórmulas ni formatos originales.
-* 📄 **Soporte para Formatos Modernos de Excel:** Compatible con archivos `.xlsx` y `.xlsm` (libros habilitados para macros).
-* 🔍 **Detección Automática de Protección:** Analiza la estructura interna del archivo ZIP/XML para verificar la existencia de protecciones activas antes de procesar.
-* 🖱️ **Soporte Drag & Drop:** Arrastra y suelta archivos de Excel directamente en la interfaz para un procesamiento rápido.
-* 🧵 **Procesamiento Asíncrono (Worker Thread):** Ejecución en segundo plano que mantiene la interfaz ágil y fluida durante el análisis.
-* 📂 **Creación Segura de Copias:** Genera una copia desbloqueada con el sufijo `_unlocked` para preservar siempre el archivo original intacto.
-* 🎨 **Interfaz Moderna en Dark Mode:** Diseño elegante optimizado en PySide6/PyQt6 con animaciones fluidas, bordes interactivos y soporte de arrastrar y soltar.
-* 📊 **Badge de Estado Dinámico:** Indicador visual en tiempo real para el estado de análisis, éxito, advertencias y errores.
-* ✂️ **Ajuste Inteligente de Rutas de Archivo:** Truncado automático de texto largo con elidedText y tooltip contextual para visualizar rutas completas.
-* 🛡️ **Defensa Visual Multi-pantalla:** Control automático de reajuste de interfaz contra variaciones de escalado DPI en Windows.
-* 🇪🇸 **Interfaz en Español:** Diseñada para ser clara, intuitiva y fácil de usar.
+### 🛡️ Desbloqueo Directo de Protecciones OpenXML (`sheetProtection` & `workbookProtection`)
 
----
+Permite remover instantáneamente la protección contra escritura e inspección de hojas individuales y la estructura completa de libros de Microsoft Excel.
 
-# 🆕 Actualización — Versión 1.0.0
+El sistema procesa la estructura comprimida del archivo en memoria sin requerir la clave original, limpiando de forma precisa las etiquetas XML de seguridad (`<sheetProtection>` y `<workbookProtection>`).
 
-### Lanzamiento Oficial de ExcelGuard
+Cada archivo procesado genera una copia desprotegida etiquetada como `_unlocked` para garantizar la integridad del archivo original y evitar sobreescrituras accidentales.
 
-Se presenta la versión inicial de ExcelGuard, orientada a la remoción directa y segura de restricciones en hojas de cálculo de Microsoft Excel.
+### 🔄 Almacenamiento 100% Local y Privacidad Garantizada
 
-* ⚡ **Motor de eliminación ultra rápido:** Descompresión y modificación directa del marcado XML interno de los libros.
-* 🖱️ **Experiencia de usuario optimizada:** Zona de arrastre interactiva con animaciones de opacidad y bordes punteados.
-* 🔍 **Verificación previa:** Identificación de archivos sin protección para evitar duplicación o procesamiento innecesario.
-* 💡 **Información de productos Pro:** Integración con diálogos orientados a funciones avanzadas de cifrado y restauración.
-* 🛠️ **Base sólida y ligera:** Arquitectura optimizada para ejecuciones en sistemas Windows de 64 bits.
+Incluye un motor autónomo desarrollado en Python/PyQt6 que no requiere conexión a Internet, servidores remotos ni librerías externas de Office.
 
-**Versión actual: `1.0.0`**
+Tus archivos financieros, reportes corporativos y datos confidenciales nunca salen de tu computadora, ofreciendo total cumplimiento con normas de seguridad de la información.
+
+Esta función es ideal para:
+
+* 🏢 Contadores, auditores y departamentos de finanzas
+* ⚖️ Abogados, administradores y consultores de empresas
+* 🎓 Estudiantes y docentes que trabajan con plantillas de cálculo
+* 🎒 Usuarios que gestionan presupuestos familiares o archivos personales restringidos
+
+### ⚡ Interfaz Intuitiva con Soporte Drag & Drop y Ejecución Multihilo
+
+Incorpora una zona interactiva para arrastrar y soltar archivos (`Drag & Drop`) con animaciones fluidas, indicador de estado dinámico y alertas visuales.
+
+Gracias a su arquitectura con procesamiento multihilo (`QThread`), la desprotección no congela la interfaz gráfica incluso al trabajar con libros de Excel de gran tamaño.
 
 ---
 
-# 🔒 ¿Cómo funciona?
-
-### 📥 Proceso de Desbloqueo
-Archivo protegido (.xlsx / .xlsm) ➔ Análisis XML ➔ Remoción de `<sheetProtection>` y `<workbookProtection>` ➔ Guardado como `_unlocked`
-
----
-
-# 🛡️ Formato Interno y Estructura XML
-
-Los archivos de Excel (`.xlsx` / `.xlsm`) son contenedores comprimidos en formato ZIP que almacenan la estructura de la hoja de cálculo en código XML:
-
-`xl/worksheets/sheet*.xml` + `xl/workbook.xml`
-
-* **sheetProtection**: Etiqueta XML que bloquea la edición de celdas, formatos y filas/columnas en hojas individuales.
-* **workbookProtection**: Etiqueta XML que restringe la modificación de la estructura del libro (añadir, mover o eliminar hojas).
-* **ExcelGuard** elimina de forma limpia estas etiquetas internas sin alterar el resto del esquema de datos.
-
----
-
-# 💎 Comparativa y Descarga
+# 💎 Comparativa de Licencias y Descarga
 
 <table>
 <tr>
 <th>Funciones</th>
-<th>Gratis (ExcelGuard)</th>
-<th>Licencia Vitalicia (ExcelGuard Pro)</th>
+<th>Gratis (Free Edition)</th>
+<th>Licencia Pro (Vitalicia)</th>
 </tr>
 
 <tr>
-<td>Eliminación de protección de hojas y libros</td>
-<td align="center">✅</td>
-<td align="center">✅</td>
-</tr>
-
-<tr>
-<td>Detección automática de protecciones activas</td>
+<td>Desbloqueo de hojas protegidas (sheetProtection)</td>
 <td align="center">✅</td>
 <td align="center">✅</td>
 </tr>
 
 <tr>
-<td>Soporte para archivos .xlsx y .xlsm</td>
+<td>Desbloqueo de libros protegidos (workbookProtection)</td>
 <td align="center">✅</td>
 <td align="center">✅</td>
 </tr>
 
 <tr>
-<td>Preservación del archivo original intacto</td>
+<td>Procesamiento 100% local (sin nube ni telemetría)</td>
 <td align="center">✅</td>
 <td align="center">✅</td>
 </tr>
 
 <tr>
-<td>Soporte Drag & Drop e interfaz en español</td>
+<td>Interfaz moderna con Drag & Drop y tema oscuro</td>
 <td align="center">✅</td>
 <td align="center">✅</td>
 </tr>
 
 <tr>
-<td>Bloqueo de libros con contraseña real (SHA-512 + salt)</td>
+<td>Generación de copia segura (_unlocked)</td>
+<td align="center">✅</td>
+<td align="center">✅</td>
+</tr>
+
+<tr>
+<td>Procesamiento asíncrono multihilo (QThread)</td>
+<td align="center">✅</td>
+<td align="center">✅</td>
+</tr>
+
+<tr>
+<td>Protección con clave real (SHA-512 + Salt Excel 2013+)</td>
 <td align="center">❌</td>
 <td align="center">✅</td>
 </tr>
 
 <tr>
-<td>Restauración exacta de la protección original sin clave</td>
+<td>Restaurar protección original sin contraseña</td>
 <td align="center">❌</td>
 <td align="center">✅</td>
 </tr>
 
 <tr>
-<td>Respaldo automático cifrado previa modificación</td>
+<td>Respaldo automático cifrado pre-desbloqueo</td>
 <td align="center">❌</td>
 <td align="center">✅</td>
 </tr>
 
 <tr>
-<td><b>Duración / Acceso</b></td>
-<td align="center"><b>GRATIS</b></td>
+<td>Soporte técnico prioritario y actualizaciones</td>
+<td align="center">❌</td>
+<td align="center">✅</td>
+</tr>
+
+<tr>
+<td><b>Duración</b></td>
+<td align="center"><b>GRATIS PARA SIEMPRE</b></td>
 <td align="center"><b>PARA SIEMPRE</b></td>
 </tr>
 
@@ -136,14 +129,14 @@ Los archivos de Excel (`.xlsx` / `.xlsm`) son contenedores comprimidos en format
 <td><b>Acción</b></td>
 
 <td align="center">
-<a href="https://github.com/EscudoDigitalSV/excelguard/releases/download/v1.0.0/ExcelGuard.exe">
-<img src="https://img.shields.io/badge/PROBAR_GRATIS-blue?style=for-the-badge&logo=windows11&logoColor=white">
+<a href="https://github.com/escudodigitalsv/excelguard/releases/download/v1.0.0/ExcelGuard.exe">
+<img src="https://img.shields.io/badge/DESCARGAR_GRATIS-blue?style=for-the-badge&logo=windows11&logoColor=white">
 </a>
 </td>
 
 <td align="center">
-<a href="https://escudodigitalsv.com">
-<img src="https://img.shields.io/badge/🛒_COMPRAR_AHORA-escudodigitalsv.com-blue?style=for-the-badge">
+<a href="https://www.escudodigitalsv.com/excelguard">
+<img src="https://img.shields.io/badge/🛒_COMPRAR_PRO-escudodigitalsv.com-blue?style=for-the-badge">
 </a>
 </td>
 
@@ -154,32 +147,80 @@ Los archivos de Excel (`.xlsx` / `.xlsm`) son contenedores comprimidos en format
 ---
 
 <p align="center">
-  <a href="https://github.com/EscudoDigitalSV/excelguard/releases">
+  <a href="https://github.com/escudodigitalsv/excelguard/releases">
     <img src="https://img.shields.io/github/downloads/escudodigitalsv/excelguard/total?style=for-the-badge&color=28a745&logo=github" alt="Descargas">
   </a>
 </p>
 
 ---
 
-# 🚀 Modo de Uso
+# 🚀 ¿Por qué elegir ExcelGuard?
 
-### Desbloquear un Archivo de Excel
-1. Selecciona un archivo `.xlsx` o `.xlsm` en la aplicación (o arrástralo a la zona indicada).
-2. Haz clic en el botón **🔓 Desbloquear Archivo**.
-3. ExcelGuard procesará el archivo en segundo plano.
-4. El nuevo archivo desbloqueado se guardará en la misma carpeta con el sufijo `_unlocked` (ejemplo: `Reporte_unlocked.xlsx`).
+| 💡 Beneficios Clave                           | ⚙️ Especificaciones                |
+| :-------------------------------------------- | :--------------------------------- |
+| 🔓 Desbloqueo instantáneo en tu PC o USB.     | 🖥️ Compatible con Windows 10 y 11 |
+| 🛡️ 100% offline, sin subir archivos a la nube. | ⚡ Análisis y limpieza OpenXML XML |
+| 💾 Conserva datos, fórmulas, tablas y macros. | 🌐 Funciona completamente offline  |
+| ⚡ Interfaz rápida con arrastrar y soltar.     | 🚀 Ejecutable portable sin inst.   |
+| ⚠️ Detección automática de protección real.   | 🛡️ Preserva el archivo original    |
+| 📂 Generación automática de archivo _unlocked | 🔏 Formato .xlsx y .xlsm soportado |
+
+---
+
+# ⭐ Características Principales
+
+### 🔐 Desbloqueo y Remoción de Protecciones Excel
+
+* Desbloqueo automático de protecciones de hojas individuales (`sheetProtection`).
+* Eliminación de bloqueos a nivel de estructura de libro (`workbookProtection`).
+* Preservación intacta del contenido de celdas, gráficos, fórmulas, formatos y código VBA/macros.
+* Generación de un nuevo archivo desprotegido (`nombre_unlocked.xlsx`) sin modificar el archivo origen.
+
+### 💾 Privacidad, Portabilidad y Rendimiento
+
+* Ejecución totalmente fuera de línea (offline) sin recolección de telemetría.
+* Operaciones de limpieza en memoria mediante lectura y escritura Zip/XML de alto desempeño.
+* Arquitectura basada en hilos secundarios para mantener la UI 100% responsiva durante el procesamiento.
+
+### ⚙️ Interfaz Gráfica y Experiencia de Usuario
+
+* Diseño profesional en Dark Mode optimizado para evitar fatiga visual.
+* Zona reactiva de arrastre (`DropZone`) con retroalimentación cromática y cambio de opacidad.
+* Indicador dinámico de estado (`StatusBadge`) que informa éxito, ausencia de protección o errores de lectura.
+* Manejo automático de escalas DPI en pantallas de alta resolución en Windows.
+
+### 🔑 Gestión de Errores e Inspección de Archivos
+
+* Verificación previa de existencia de marcas de protección antes de aplicar el proceso.
+* Mensajes informativos detallados si el archivo no requiere desbloqueo o si posee formato incompatible.
+
+---
+
+# 🛡️ Casos de Uso
+
+✅ Recuperar el acceso de edición a hojas de Excel con contraseña olvidada o perdida
+
+✅ Editar celdas, tablas dinámicas o fórmulas bloqueadas en plantillas corporativas
+
+✅ Modificar estructuras de libros protegidos sin afectar las macros existentes
+
+✅ Automatizar la limpieza de protecciones antes de integrar reportes a sistemas de datos
+
+✅ Trabajar de manera segura con documentos confidenciales en entornos sin conexión a Internet
+
+✅ Mantener intacto el documento original como copia de seguridad previa al desbloqueo
 
 ---
 
 # ⚠️ Nota de Seguridad
 
 > [!CAUTION]
-> ExcelGuard interactúa directamente con la estructura de archivos ZIP/XML de Microsoft Excel para eliminar las marcas de protección de hojas y libros.
+> ExcelGuard interactúa directamente con la estructura de archivos ZIP/XML de documentos Microsoft Excel mediante operaciones de bajo nivel de archivos temporales y compresión.
 >
-> Debido a este comportamiento técnico y al procesamiento directo sobre contenedores comprimidos, algunos antivirus o soluciones de seguridad pueden mostrar alertas preventivas o falsos positivos.
+> Debido a este comportamiento técnico y al empaquetado autónomo del ejecutable, algunos antivirus o soluciones de seguridad pueden mostrar alertas preventivas o falsos positivos.
 
 > [!NOTE]
-> ExcelGuard es un proyecto independiente desarrollado por Escudo Digital SV.
+> ExcelGuard es un proyecto independiente en constante evolución desarrollado por EscudoDigitalSV.
 >
 > Esta primera versión oficial aún no cuenta con una firma digital de código (Code Signing Certificate), por lo que Windows SmartScreen puede mostrar advertencias preventivas al ejecutar el archivo descargado.
 >
@@ -200,7 +241,7 @@ Los archivos de Excel (`.xlsx` / `.xlsm`) son contenedores comprimidos en format
 
 1. Haz clic en **Más información**.
 2. Haz clic en **Ejecutar de todas formas**.
-3. Continúa con la instalación normalmente.
+3. Continúa con la ejecución del programa normalmente.
 
 <div align="center">
 
@@ -209,7 +250,7 @@ Los archivos de Excel (`.xlsx` / `.xlsm`) son contenedores comprimidos en format
 </div>
 
 > [!TIP]
-> Este procedimiento generalmente solo es necesario la primera vez que se ejecuta el instalador.
+> Este procedimiento generalmente solo es necesario la primera vez que se ejecuta el ejecutable.
 
 ---
 
@@ -220,33 +261,33 @@ Los archivos de Excel (`.xlsx` / `.xlsm`) son contenedores comprimidos en format
 | Sistema Operativo | Windows 10 / 11 |
 | Arquitectura      | x64             |
 | RAM               | 2 GB            |
-| Espacio en Disco  | 100 MB          |
-| Almacenamiento    | Unidad Local (NTFS / FAT32) |
+| Espacio en Disco  | 30 MB           |
+| Almacenamiento    | Disco local / Memoria USB |
 | Internet          | No requerido    |
 
 ---
 
 # 🐛 Reportar un Problema
 
-Si encuentras un error o comportamiento inesperado, puedes enviarnos un correo a **soporte@escudodigitalsv.com** indicando:
-* Versión de ExcelGuard (versión gratuita)
+Si encuentras un error o comportamiento inesperado, puedes enviarnos un correo a **info@escudodigitalsv.com** indicando:
+* Versión de ExcelGuard (v1.0.0)
 * Versión de Windows
 * Pasos para reproducir el problema
-* Mensaje de error
-* Captura de pantalla, si es necesario
+* Captura de pantalla o mensaje de error, si es necesario
+
+También puedes visitar nuestro foro en [https://foro.escudodigitalsv.com/](https://foro.escudodigitalsv.com/) o nuestra organización en GitHub en [https://github.com/EscudoDigitalSV](https://github.com/EscudoDigitalSV).
 
 > [!IMPORTANT]
-> Nunca publiques contraseñas ni libros de Excel que contengan información confidencial o personal.
+> Nunca envíes archivos de Excel que contengan información confidencial o financiera personal.
 
 ---
 
 <div align="center">
 
-## 🌐 Escudo Digital SV
+## ❤️ ExcelGuard v1.0.0 © 2026
 
-Desarrollado por **Escudo Digital SV**  
-🌐 Sitio web oficial: [escudodigitalsv.com](https://escudodigitalsv.com)
+Primera versión oficial (Free Edition).
 
-© 2026 Escudo Digital SV. Todos los derechos reservados.
+Desbloqueo instantáneo, almacenamiento local y eliminación segura de protecciones para Microsoft Excel.
 
 </div>
